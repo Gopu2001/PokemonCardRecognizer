@@ -1,5 +1,5 @@
 # PokemonCardRecognizer
-Recognize scanned Pokémon Cards super fast
+Recognize scanned Pokémon Cards super fast. I will be using a trained model. Keep in mind that the model will be trained on approximately 10,500 distinct images (only one per class)!
 
 # Stay Tuned!
 This repository is still being developed and a Django application will serve the frontend for the project.
