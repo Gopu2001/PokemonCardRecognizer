@@ -1,0 +1,7 @@
+{% if exception %}
+	<h1>403 Forbidden</h1>
+	<p>Error:<br>{{ exception }}</p>
+{% else %}
+	<h1>403 Forbidden</h1>
+	<p>Error:<br>I do not know why this Permission Denied Error is occurring.</p>
+{% endif %}

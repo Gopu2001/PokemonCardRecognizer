@@ -1,0 +1,7 @@
+<form method="post" enctype="multipart/form-data">
+	{% csrf_token %}
+	<h3>Logout</h3>
+		{{ form.as_p }}
+	<button type="submit">Logout</button>
+	<h3>We're sorry to see you go!</h3>
+</form>

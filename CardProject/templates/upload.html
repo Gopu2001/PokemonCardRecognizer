@@ -1,0 +1,25 @@
+<form method="post" enctype="multipart/form-data">
+	{% csrf_token %}
+		{{ form.as_p }}
+	<button type="submit">Upload</button>
+</form>
+
+{% if image1 %}
+	<h3>Successfully uploaded : {{title}}</h3>
+	<img src="{{image1.url}}" alt="Pokemon 1" style="max-height:300px">
+{% endif %}
+{% if image2 %}
+	<img src="{{image2.url}}" alt="Pokemon 2" style="max-height:300px">
+{% endif %}
+{% if image3 %}
+	<img src="{{image3.url}}" alt="Pokemon 3" style="max-height:300px">
+{% endif %}
+{% if image4 %}
+	<img src="{{image4.url}}" alt="Pokemon 4" style="max-height:300px">
+{% endif %}
+{% if image5 %}
+	<img src="{{image5.url}}" alt="Pokemon 5" style="max-height:300px">
+{% endif %}
+{% if image6 %}
+	<img src="{{image6.url}}" alt="Pokemon 6" style="max-height:300px">
+{% endif %}
